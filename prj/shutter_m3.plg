@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\work\frq\shutter_prj\prj\shutter_m3.uvproj
+Project File Date:  08/13/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+Program Size: Code=21398 RO-data=554 RW-data=136 ZI-data=6128  
+"shutter_m3.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+..\startup\main.c(36): warning:  #223-D: function "l2cap_init" declared implicitly
+..\startup\main.c(37): warning:  #223-D: function "sdp_init" declared implicitly
+..\startup\main.c(38): warning:  #223-D: function "hid_init" declared implicitly
+..\startup\main.c(42): warning:  #223-D: function "btlib_hcicmd_write_memory" declared implicitly
+..\startup\main.c(60): warning:  #223-D: function "btlib_hcicmd_set_localbdaddr" declared implicitly
+..\startup\main.c(63): warning:  #223-D: function "btlib_hcicmd_write_classofdevice" declared implicitly
+..\startup\main.c(66): warning:  #223-D: function "btlib_hcicmd_write_localname" declared implicitly
+..\startup\main.c(78): warning:  #223-D: function "hci_app_callback" declared implicitly
+..\startup\main.c(84): warning:  #223-D: function "hid_send_interrupt_data" declared implicitly
+..\startup\main.c(102): warning:  #223-D: function "hid_send_interrupt_data2" declared implicitly
+..\startup\main.c(17): warning:  #177-D: variable "t" was declared but never referenced
+..\startup\main.c(18): warning:  #177-D: variable "len" was declared but never referenced
+..\startup\main.c(19): warning:  #177-D: variable "times" was declared but never referenced
+compiling delay.c...
+compiling sys.c...
+compiling uart.c...
+compiling beep.c...
+compiling key.c...
+compiling led.c...
+compiling hci.c...
+..\bt\hci\hci.c(83): warning:  #223-D: function "memcpy" declared implicitly
+..\bt\hci\hci.c(116): warning:  #223-D: function "memcpy" declared implicitly
+..\bt\hci\hci.c(220): warning:  #223-D: function "strcpy" declared implicitly
+compiling hcitask.c...
+..\bt\hci\hcitask.c(26): warning:  #550-D: variable "conn_handle" was set but never used
+compiling btm_handle_hcievent.c...
+..\bt\btm\btm_handle_hcievent.c(67): warning:  #223-D: function "memcmp" declared implicitly
+..\bt\btm\btm_handle_hcievent.c(96): warning:  #188-D: enumerated type mixed with another type
+..\bt\btm\btm_handle_hcievent.c(108): warning:  #188-D: enumerated type mixed with another type
+..\bt\btm\btm_handle_hcievent.c(148): warning:  #188-D: enumerated type mixed with another type
+..\bt\btm\btm_handle_hcievent.c(210): warning:  #223-D: function "memcmp" declared implicitly
+..\bt\btm\btm_handle_hcievent.c(292): warning:  #188-D: enumerated type mixed with another type
+compiling btm_security.c...
+..\bt\btm\btm_security.c(24): warning:  #513-D: a value of type "int8 *" cannot be assigned to an entity of type "uint8 *"
+..\bt\btm\btm_security.c(21): warning:  #177-D: variable "valid_key_flag" was declared but never referenced
+..\bt\btm\btm_security.c(93): warning:  #177-D: variable "conn" was declared but never referenced
+compiling btm.c...
+..\bt\btm\btm.c(55): warning:  #223-D: function "memcpy" declared implicitly
+..\bt\btm\btm.c(69): warning:  #223-D: function "memcmp" declared implicitly
+..\bt\btm\btm.c(123): warning:  #188-D: enumerated type mixed with another type
+..\bt\btm\btm.c(128): warning:  #188-D: enumerated type mixed with another type
+compiling l2cap.c...
+..\bt\l2cap\l2cap.c(169): warning:  #223-D: function "btm_conn_acl_close" declared implicitly
+..\bt\l2cap\l2cap.c(152): warning:  #177-D: variable "channel" was declared but never referenced
+..\bt\l2cap\l2cap.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+..\bt\l2cap\l2cap.c(307): warning:  #223-D: function "btm_security_askfor_authority" declared implicitly
+..\bt\l2cap\l2cap.c(410): warning:  #223-D: function "btm_conn_acl_send_skb" declared implicitly
+..\bt\l2cap\l2cap.c(955): warning:  #550-D: variable "sig" was set but never used
+..\bt\l2cap\l2cap.c(1157): warning:  #223-D: function "btm_security_askfor_authority" declared implicitly
+..\bt\l2cap\l2cap.c(1475): warning:  #550-D: variable "sig" was set but never used
+..\bt\l2cap\l2cap.c(1545): warning:  #111-D: statement is unreachable
+..\bt\l2cap\l2cap.c(1610): warning:  #223-D: function "btm_conn_acl_close" declared implicitly
+..\bt\l2cap\l2cap.c(1594): warning:  #177-D: variable "temp" was declared but never referenced
+..\bt\l2cap\l2cap.c(1875): warning:  #223-D: function "btm_conn_acl_req" declared implicitly
+..\bt\l2cap\l2cap.c(1593): warning: C3017W: channel may be used before being set
+compiling co_skbuff.c...
+..\misc\co_skbuff.c(77): warning:  #223-D: function "memcpy" declared implicitly
+compiling co_timer.c...
+..\misc\co_timer.c(18): warning:  #177-D: function "timer_tick" was declared but never referenced
+compiling hid.c...
+..\bt\hid\hid.c(30): warning:  #223-D: function "memset" declared implicitly
+..\bt\hid\hid.c(61): warning:  #223-D: function "memset" declared implicitly
+..\bt\hid\hid.c(154): warning:  #223-D: function "memset" declared implicitly
+compiling sdp.c...
+..\bt\sdp\sdp.c(85): warning:  #223-D: function "memcpy" declared implicitly
+..\bt\sdp\sdp.c(694): warning:  #223-D: function "memcpy" declared implicitly
+..\bt\sdp\sdp.c(848): warning:  #223-D: function "memcpy" declared implicitly
+compiling queue.c...
+compiling buffer.c...
+linking...
+Program Size: Code=16406 RO-data=554 RW-data=128 ZI-data=6128  
+"shutter_m3.axf" - 0 Error(s), 51 Warning(s).
+Clean started: Project: 'shutter_m3'
+   deleting intermediate output files for target 'Target 1'

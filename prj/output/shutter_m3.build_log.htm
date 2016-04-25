@@ -1,0 +1,83 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: owen liu, frq, LIC=MGX74-FIS0Z-WIS5K-ZW2CY-ME3B7-DZHRR
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.17
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.17
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.16.0
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+D:\work\frq\zipaiqi\shutter_prj\prj\shutter_m3.uvproj
+Project File Date:  04/23/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling key.c...
+compiling main.c...
+..\startup\main.c(60): warning:  #223-D: function "l2cap_init" declared implicitly
+  	l2cap_init();
+..\startup\main.c(61): warning:  #223-D: function "sdp_init" declared implicitly
+  	sdp_init();
+..\startup\main.c(62): warning:  #223-D: function "hid_init" declared implicitly
+  	hid_init();
+..\startup\main.c(66): warning:  #223-D: function "btlib_hcicmd_write_memory" declared implicitly
+  	btlib_hcicmd_write_memory(0x10000000, 0x1f, 0x01); //opccr_reg (0x0800009c) to 0x1f 
+..\startup\main.c(87): warning:  #223-D: function "btlib_hcicmd_set_localbdaddr" declared implicitly
+  	btlib_hcicmd_set_localbdaddr((uint8 *)local_bdaddr); //write local bdaddr
+..\startup\main.c(90): warning:  #223-D: function "btlib_hcicmd_write_classofdevice" declared implicitly
+  	btlib_hcicmd_write_classofdevice((uint8 *)class_of_device);	//write class of device
+..\startup\main.c(93): warning:  #223-D: function "btlib_hcicmd_write_localname" declared implicitly
+  	btlib_hcicmd_write_localname("FRQ HID2"); //write localname
+..\startup\main.c(96): warning:  #223-D: function "btlib_hcicmd_write_page_scan_activity" declared implicitly
+      btlib_hcicmd_write_page_scan_activity(0x200, 0x20);
+..\startup\main.c(99): warning:  #223-D: function "btlib_hcicmd_write_inquiry_scan_activity" declared implicitly
+      btlib_hcicmd_write_inquiry_scan_activity(0x200, 0x20);
+..\startup\main.c(112): warning:  #223-D: function "hci_app_callback" declared implicitly
+  			hci_app_callback(message);
+..\startup\main.c(118): warning:  #223-D: function "hid_send_interrupt_data" declared implicitly
+  				hid_send_interrupt_data(buff, 1);
+..\startup\main.c(136): warning:  #223-D: function "hid_send_interrupt_data2" declared implicitly
+  				hid_send_interrupt_data2(buff, 1);
+..\startup\main.c(17): warning:  #177-D: variable "t" was declared but never referenced
+  	u16 t;
+..\startup\main.c(18): warning:  #177-D: variable "len" was declared but never referenced
+  	u16 len;	
+..\startup\main.c(19): warning:  #177-D: variable "times" was declared but never referenced
+  	u16 times=0;
+..\startup\main.c(24): warning:  #177-D: variable "count" was declared but never referenced
+      uint32 count = 0;
+..\startup\main.c(25): warning:  #177-D: variable "flash_label" was declared but never referenced
+      uint8 flash_label = 0;
+..\startup\main.c: 17 warnings, 0 errors
+compiling sdp.c...
+..\bt\sdp\sdp.c(122): warning:  #223-D: function "memcpy" declared implicitly
+  	memcpy(curr_rsp_pkt+len_before_attr, sdp_rsp_buf+rsp_len_sent, curr_rsp_len);
+..\bt\sdp\sdp.c(1002): warning:  #550-D: variable "max_rec_cnt" was set but never used
+  	int max_rec_cnt;
+..\bt\sdp\sdp.c(1005): warning:  #177-D: variable "db_hdl" was declared but never referenced
+  	service_search_struct_t db_hdl;
+..\bt\sdp\sdp.c(54): warning:  #177-D: function "sdp_make_service_search_attr_rsp" was declared but never referenced
+  static sdp_status_t sdp_make_service_search_attr_rsp(service_search_attr_struct_t *db_handle);
+..\bt\sdp\sdp.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=14974 RO-data=766 RW-data=160 ZI-data=5368  
+".\output\shutter_m3.axf" - 0 Error(s), 21 Warning(s).
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

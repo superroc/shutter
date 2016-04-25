@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+".\output\main.o"
+".\output\startup_stm32f10x_hd.o"
+".\output\delay.o"
+".\output\sys.o"
+".\output\uart.o"
+".\output\beep.o"
+".\output\key.o"
+".\output\led.o"
+".\output\hci.o"
+".\output\hcitask.o"
+".\output\btm_handle_hcievent.o"
+".\output\btm_security.o"
+".\output\btm.o"
+".\output\l2cap.o"
+".\output\co_skbuff.o"
+".\output\co_timer.o"
+".\output\hid.o"
+".\output\sdp.o"
+".\output\queue.o"
+".\output\buffer.o"
+".\output\print.o"
+--strict --scatter ".\output\shutter_m3.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\output\shutter_m3.map" -o .\output\shutter_m3.axf

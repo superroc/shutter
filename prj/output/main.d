@@ -1,0 +1,16 @@
+.\output\main.o: ..\startup\main.c
+.\output\main.o: ..\drivers\sys.h
+.\output\main.o: ..\include\stm32f10x_map.h
+.\output\main.o: ..\include\stm32f10x_conf.h
+.\output\main.o: ..\include\stm32f10x_type.h
+.\output\main.o: ..\include\cortexm3_macro.h
+.\output\main.o: ..\include\stm32f10x_nvic.h
+.\output\main.o: ..\drivers\uart.h
+.\output\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\main.o: ..\drivers\delay.h
+.\output\main.o: ..\drivers\led.h
+.\output\main.o: ..\drivers\beep.h
+.\output\main.o: ..\drivers\key.h
+.\output\main.o: ..\bt\queue\buffer.h
+.\output\main.o: ..\bt\queue\queue.h
+.\output\main.o: ..\bt\btm\btm.h

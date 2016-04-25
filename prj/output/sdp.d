@@ -1,0 +1,9 @@
+.\output\sdp.o: ..\bt\sdp\sdp.c
+.\output\sdp.o: ..\bt\sdp\sdp_api.h
+.\output\sdp.o: ..\include\stm32f10x_type.h
+.\output\sdp.o: ..\bt\sdp\sdp.h
+.\output\sdp.o: ..\bt\l2cap\l2cap_api.h
+.\output\sdp.o: ..\misc\co_skbuff.h
+.\output\sdp.o: ..\bt\btm\btm_hci.h
+.\output\sdp.o: ..\bt\btm\btm.h
+.\output\sdp.o: ..\bt\queue\buffer.h

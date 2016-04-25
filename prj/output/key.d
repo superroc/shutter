@@ -1,0 +1,9 @@
+.\output\key.o: ..\drivers\key.c
+.\output\key.o: ..\drivers\key.h
+.\output\key.o: ..\drivers\sys.h
+.\output\key.o: ..\include\stm32f10x_map.h
+.\output\key.o: ..\include\stm32f10x_conf.h
+.\output\key.o: ..\include\stm32f10x_type.h
+.\output\key.o: ..\include\cortexm3_macro.h
+.\output\key.o: ..\include\stm32f10x_nvic.h
+.\output\key.o: ..\drivers\delay.h

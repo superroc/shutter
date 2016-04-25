@@ -1,0 +1,11 @@
+.\output\btm_handle_hcievent.o: ..\bt\btm\btm_handle_hcievent.c
+.\output\btm_handle_hcievent.o: ..\bt\btm\btm_handle_hcievent.h
+.\output\btm_handle_hcievent.o: ..\bt\btm\btm_security.h
+.\output\btm_handle_hcievent.o: ..\include\stm32f10x_type.h
+.\output\btm_handle_hcievent.o: ..\bt\btm\btm_hci.h
+.\output\btm_handle_hcievent.o: ..\misc\co_skbuff.h
+.\output\btm_handle_hcievent.o: ..\bt\btm\btm.h
+.\output\btm_handle_hcievent.o: ..\bt\hci\hci.h
+.\output\btm_handle_hcievent.o: ..\bt\l2cap\l2cap_api.h
+.\output\btm_handle_hcievent.o: ..\bt\l2cap\l2cap.h
+.\output\btm_handle_hcievent.o: ..\bt\queue\buffer.h

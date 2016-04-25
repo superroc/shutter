@@ -1,0 +1,6 @@
+---- MAX_SDP_ATTR_LENGTH Matches (5 in 1 files) ----
+Sdp.c (bt\sdp):#define MAX_SDP_ATTR_LENGTH		150
+Sdp.c (bt\sdp):	if(max_attr_cnt> MAX_SDP_ATTR_LENGTH)
+Sdp.c (bt\sdp):		max_attr_cnt = MAX_SDP_ATTR_LENGTH;
+Sdp.c (bt\sdp):	if(max_attr_cnt> MAX_SDP_ATTR_LENGTH)
+Sdp.c (bt\sdp):		max_attr_cnt = MAX_SDP_ATTR_LENGTH;

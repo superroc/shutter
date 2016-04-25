@@ -1,0 +1,38 @@
+*** Creating Trace Output File 'shutter_m3.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '".\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"sys.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"beep.o"'
+### List of Objects: adding '"key.o"'
+### List of Objects: adding '"led.o"'
+### List of Objects: adding '"hci.o"'
+### List of Objects: adding '"hcitask.o"'
+### List of Objects: adding '"btm_handle_hcievent.o"'
+### List of Objects: adding '"btm_security.o"'
+### List of Objects: adding '"btm.o"'
+### List of Objects: adding '"l2cap.o"'
+### List of Objects: adding '"co_skbuff.o"'
+### List of Objects: adding '"co_timer.o"'
+### List of Objects: adding '"hid.o"'
+### List of Objects: adding '"sdp.o"'
+### List of Objects: adding '"queue.o"'
+### List of Objects: adding '"buffer.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "main.o" ".\startup_stm32f10x_hd.o" "delay.o" "sys.o" "uart.o" "beep.o" "key.o" "led.o" "hci.o" "hcitask.o" "btm_handle_hcievent.o" "btm_security.o" "btm.o" "l2cap.o" "co_skbuff.o" "co_timer.o" "hid.o" "sdp.o" "queue.o" "buffer.o" --strict --scatter "shutter_m3.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\shutter_m3.map" -o shutter_m3.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'shutter_m3.axf'
+### ADS-LD Command File: 'shutter_m3.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'shutter_m3.lnp', Handle=0x000004D4
+### Writing '.lnp' file
+### ADS-LD Command file 'shutter_m3.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,11 @@
+.\output\l2cap.o: ..\bt\l2cap\l2cap.c
+.\output\l2cap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\l2cap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\l2cap.o: ..\bt\l2cap\l2cap.h
+.\output\l2cap.o: ..\include\stm32f10x_type.h
+.\output\l2cap.o: ..\misc\co_skbuff.h
+.\output\l2cap.o: ..\bt\l2cap\l2cap_api.h
+.\output\l2cap.o: ..\bt\btm\btm_hci.h
+.\output\l2cap.o: ..\bt\btm\btm.h
+.\output\l2cap.o: ..\bt\btm\btm_security.h
+.\output\l2cap.o: ..\misc\co_timer.h
